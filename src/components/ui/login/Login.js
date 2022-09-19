@@ -87,7 +87,7 @@ const Login = () => {
                 type="primary"
                 htmlType="submit"
                 className="login-form-button"
-                onClick={() => navigate("/main")}
+                onClick={() => navigate("/admin")}
               >
                 Iniciar sesión
               </Button>

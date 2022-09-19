@@ -45,17 +45,7 @@ const Home = ({ children }) => {
         </Row>
       </Header>
       <Content className="content_Layout">
-        <Row>
-          <Col>
-            <div>CUERPO</div>
-          </Col>
-          <Col>
-            <div>CUERPO</div>
-          </Col>
-          <Col>
-            <div>CUERPO</div>
-          </Col>
-        </Row>
+
       </Content>
       <Footer className="footer_Layout">
         Todos los derechos reservados @2022

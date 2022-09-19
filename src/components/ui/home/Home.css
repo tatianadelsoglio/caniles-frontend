@@ -1,11 +1,11 @@
 .header_Layout {
-  background: linear-gradient(
+  /* background: linear-gradient(
     -225deg,
     #f6bf96 0%,
     #a7bce5 52%,
     #7fc4b4 100%
-  ) !important;
-  /* background-color: #f6bf96; */
+  ) !important; */
+  background-color: #7a6f5d;
   border-bottom: solid 0.5px gray;
   width: 100vw;
   height: 10vh;
@@ -96,7 +96,7 @@
 
 .content_Layout {
   /* background: linear-gradient(-225deg, #7fc4b4 0%, #a7bce5 52%, #f6bf96 100%) !important; */
-  background-color: #a7bce5;
+  background-color: #fdf2c5;
   width: 100vw;
   height: 82vh;
 }
@@ -107,7 +107,7 @@
   justify-content: center;
   align-items: center;
   /* background: linear-gradient(-225deg, #7fc4b4 0%, #a7bce5 52%, #f6bf96 100%) !important; */
-  background-color: #7fc4b4;
+  background-color: #82bfa0;
   border-top: solid 0.5px gray;
   width: 100vw;
   height: 5vh;

@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
 import { WidthProvider, Responsive } from "react-grid-layout";
 import LayoutAdmin from './LayoutAdmin';

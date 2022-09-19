@@ -1,0 +1,200 @@
+@import 'antd/dist/antd.css';
+
+.flexContainer{
+    height: 100vh;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #F2F2F2;
+  }
+  
+  .mainView{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-self: stretch;
+  }
+  
+    .pageHeader{
+      background-color: #FFFFFF;
+      height: 50px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      align-content: center;
+      justify-content: space-between; 
+      border-bottom: 1px solid #E0E0E0;
+      padding: 16px 24px;
+      /* padding: 0.5em 1em 0 1em; */
+    }
+  
+    .iconHeader{
+      font-size: 1.4em;
+    }
+    .pageContent{
+      flex-direction: row;
+      overflow-y: scroll;
+      height: 100%;
+      flex-wrap: nowrap;
+    }
+  
+    .col-mainchildren{
+      width: calc(100% - 70px);
+    }
+  
+  
+  
+  
+      .sidebar{
+        height: 100vh;
+        background-color: #1D2C39;
+        display: flex;
+        flex-grow: 0;
+        flex-direction: column;
+        align-items: center;
+        align-content: flex-start;
+        z-index: 1001;
+      }
+    .sidebar-top{
+      flex: 77vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 70px;
+    }
+    .sidebar-bottom{
+      flex: 23vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+      .logo-container{
+        height: 4em;
+        margin-top: 0.28em;
+      }
+      .icon-menu{
+        color: #ffffff;
+        font-size: 2em;
+      }
+  
+      .icon-menu-selected{
+        color:#1D2C39;
+        font-size: 1.6em;
+      }
+      .menu-tools{
+        margin-top:1.1em;
+        margin-bottom:1.0em;
+      }
+      .menu-modulos{
+        margin-top:1em;
+        margin-bottom:1.0em;
+      }
+      .item-menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:42px;
+        height: 42px;
+        border-radius: 3px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+      }
+      .workspace-menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:42px;
+        height: 42px;
+        border-radius: 3px;
+        margin-bottom: 1em;
+        margin-top: 0.8em;
+        background-color: #FFFFFF;
+      }
+      .workspace-menu-image{
+        width: 38px;
+        border-radius: 3px;
+      }
+      .workspace-menu:hover{
+        cursor:pointer;
+      }
+      .user-menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:42px;
+        height: 42px;
+        border-radius: 50px;
+        margin-bottom: 1.3em;
+        margin-top: 0.3em;
+        background-color: #FFFFFF;
+      }
+      .user-menu:hover{
+        cursor:pointer;
+      }
+      .user-menu-image{
+        width: 38px;
+        border-radius: 50px;
+      }
+      .item-menu:hover{
+        background-color:#454f59;
+        cursor:pointer;
+      }
+      .item-menu:active{
+        background-color: #2b4e61;
+      }
+      .item-menu-selected{     
+         display: flex;
+        justify-content: center;
+        align-items: center;
+        width:42px;
+        height: 42px;
+        border-radius: 3px;
+        background-color: #FFF;
+        margin-top: 4px;
+        margin-bottom: 4px;
+      }
+  
+      .item-header{     
+        display: flex;
+       justify-content: center;
+       align-items: center;
+       width:42px;
+       height: 42px;
+       border-radius: 3px;
+       background-color: white;
+     }
+  
+      .item-header-selected{     
+        display: flex;
+      justify-content: center;
+      align-items: center;
+      width:42px;
+      height: 42px;
+      border-radius: 3px;
+      background-color: #1D2C39;
+    }
+     .item-header:hover{
+      background-color:#f6f6f6;
+      cursor:pointer;
+    }
+  
+     .header-icon{
+       color:#1D2C39;
+       font-size:20px;
+     }
+  
+     .header-icon-selected{
+      color:white;
+      font-size:20px;
+    }
+    
+    .header-menu-wrapper{
+      display: flex;
+      -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+      -moz-transform: matrix(-1, 0, 0, 1, 0, 0);
+      -o-transform: matrix(-1, 0, 0, 1, 0, 0);
+      transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+  

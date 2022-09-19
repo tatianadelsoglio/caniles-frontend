@@ -1,6 +1,21 @@
-@import 'antd/dist/antd.css'; 
+@import '~antd/dist/antd.css';
 
-/* body{
-  background-image: linear-gradient(-225deg, #f6bf96 0%, #a7bce5 52%, #7fc4b4 100%);
-  overflow: hidden;
-} */
+/* Drawer del Side, revisar transition */
+.ant-drawer-content-wrapper {
+  margin-left:58px;
+  width: 380px !important;
+  transition: none;
+}
+
+.react-grid-item.react-grid-placeholder {
+	background: #d1d1d1;
+	border: 2px dotted rgb(0, 0, 0);
+	opacity: 0.2;
+	transition-duration: 100ms;
+	z-index: 2;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}

@@ -5,7 +5,6 @@ import patita from "./patita.png";
 import { useNavigate } from "react-router-dom";
 import { LockOutlined, UserOutlined } from "@ant-design/icons";
 import { Button, Card, Form, Input } from "antd";
-import FormItemLabel from "antd/lib/form/FormItemLabel";
 
 const Login = () => {
   let navigate = useNavigate();

@@ -46,11 +46,11 @@ h2 {
   border-radius: 5px;
 }
 
-.login-form-button {
-  background-color: #7fc4b4;
+.login-form-button{
+  background-color: #7a6f5d;
   color: #fff;
   border: none;
-  height: 40px;
+  height: 40px !important;
   cursor: pointer;
   vertical-align: middle;
   text-align: center;
@@ -63,7 +63,7 @@ h2 {
 }
 
 .login-form-button:hover {
-  background-color: #a7bce5;
+  background-color: #f6bf96;
 }
 
 

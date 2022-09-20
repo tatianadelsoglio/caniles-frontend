@@ -83,6 +83,7 @@ const Login = () => {
 
             <Form.Item>
               <Button
+              style={{ height: "40px !important"}}
                 type="primary"
                 htmlType="submit"
                 className="login-form-button"

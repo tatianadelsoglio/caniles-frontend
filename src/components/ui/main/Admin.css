@@ -24,6 +24,11 @@
     height: 100% !important;
 }
 
+.div_contenido_admin .ant-btn{
+    border-radius: 0px !important;
+    margin-left: 2px;
+}
+
 .div_contenido_admin.ant-btn:hover, .ant-btn:focus{
     background-color:#7a6f5d;
     border:none !important;

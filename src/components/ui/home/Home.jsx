@@ -45,7 +45,47 @@ const Home = ({ children }) => {
         </Row>
       </Header>
       <Content className="content_Layout">
-
+        <Row>
+          <div>Frase Intro + Img de Fondo</div>
+        </Row>
+        <Row>
+          <div>Sobre Nosotros</div>
+        </Row>
+        <Row>
+          <div>Sé parte + video petFriendly</div>
+        </Row>
+        <Row>
+          <div>
+            Adopta - Seccion de Adopciones, imagenes de mascotas del Caniles
+          </div>
+        </Row>
+        <Row>
+          <div>
+            Seccion de Apoyanos, dividida en subsecciones de Adopcion, Campañas,
+            apadrinamientos, voluntariado + btn de formularios
+          </div>
+        </Row>
+        <Row>
+          <div>Campañas, Scroll de campañas abiertas</div>
+        </Row>
+        <Row>
+          <div>Seccion de Veterinarias de la ciudad, veterinarias amigas</div>
+        </Row>
+        <Row>
+          <div>
+            Instragram en caso de haber red social
+          </div>
+        </Row>
+        <Row>
+          <div>
+            Seccion de suscripción
+          </div>
+        </Row>
+        <Row>
+          <div>
+            Seccion de metodos de pago para ayudar
+          </div>
+        </Row>
       </Content>
       <Footer className="footer_Layout">
         Todos los derechos reservados @2022

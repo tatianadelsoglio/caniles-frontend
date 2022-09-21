@@ -16,8 +16,14 @@ import {
   // SettingOutlined,
 } from "@ant-design/icons";
 import { Button, Menu } from "antd";
+import Inicio from "./inicio/Inicio";
+import Adopcion from "./adopcion/Adopcion";
 import Pasantes from "./pasante/Pasantes";
 import Animales from "./animales/Animales";
+import Campañas from "./campañas/Campañas";
+import Veterinarias from "./veterinarias/Veterinarias";
+import Reportes from "./reportes/Reportes";
+import Suscriptores from "./suscriptores/Suscriptores";
 
 function getItem(label, key, icon, children, type) {
   return {
@@ -148,14 +154,14 @@ const Admin = () => {
           </div> */}
         </div>
         <div>
-          {opcionSelect && opcionSelect === "Inicio" ? (console.log("Inicio")) : (null)}
+          {opcionSelect && opcionSelect === "Inicio" ? <Inicio/> : (null)}
           {opcionSelect && opcionSelect === "Animales" ? <Animales/> : (null)}
-          {opcionSelect && opcionSelect === "Adopción" ? (console.log("Adopción")) : (null)}
+          {opcionSelect && opcionSelect === "Adopción" ? <Adopcion/> : (null)}
           {opcionSelect && opcionSelect === "Pasantes" ? <Pasantes/> : (null)}
-          {opcionSelect && opcionSelect === "Campañas" ? (console.log("Campañas")) : (null)}
-          {opcionSelect && opcionSelect === "Veterinarias" ? (console.log("Veterinarias")) : (null)}
-          {opcionSelect && opcionSelect === "Reportes" ? (console.log("Reportes")) : (null)}
-          {opcionSelect && opcionSelect === "Suscriptores" ? (console.log("Suscriptores")) : (null)}
+          {opcionSelect && opcionSelect === "Campañas" ? <Campañas/> : (null)}
+          {opcionSelect && opcionSelect === "Veterinarias" ? <Veterinarias/> : (null)}
+          {opcionSelect && opcionSelect === "Reportes" ? <Reportes/> : (null)}
+          {opcionSelect && opcionSelect === "Suscriptores" ? <Suscriptores/> : (null)}
 
         </div>
       </div>

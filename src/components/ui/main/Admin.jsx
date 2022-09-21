@@ -11,8 +11,13 @@ import {
   MenuFoldOutlined,
   MenuUnfoldOutlined,
   PieChartOutlined,
+  // UserOutlined,
+  // PoweroffOutlined,
+  // SettingOutlined,
 } from "@ant-design/icons";
 import { Button, Menu } from "antd";
+import Pasantes from "./pasante/Pasantes";
+import Animales from "./animales/Animales";
 
 function getItem(label, key, icon, children, type) {
   return {
@@ -88,7 +93,6 @@ const Admin = () => {
       default:
         break;
     }
-    // setOpcionSelect(e.key);
     console.log("click", e.key);
   };
 
@@ -125,8 +129,35 @@ const Admin = () => {
           >
             {opcionSelect}
           </div>
+          {/* <div
+          className="menu_usuario"
+            style={{
+              width: "10%",
+            }}
+          >
+            <Menu mode="horizontal" style={{ height: "95%" }} className="menu_usuario">
+              <Menu.SubMenu key="SubMenu" title="Admin" icon={<UserOutlined />}>
+                <Menu.Item key="20" icon={<SettingOutlined />}>
+                  Configuración
+                </Menu.Item>
+                <Menu.Item key="21" icon={<PoweroffOutlined />}>
+                  Cerrar Sesión
+                </Menu.Item>
+              </Menu.SubMenu>
+            </Menu>
+          </div> */}
         </div>
-        <div>Contenido</div>
+        <div>
+          {opcionSelect && opcionSelect === "Inicio" ? (console.log("Inicio")) : (null)}
+          {opcionSelect && opcionSelect === "Animales" ? <Animales/> : (null)}
+          {opcionSelect && opcionSelect === "Adopción" ? (console.log("Adopción")) : (null)}
+          {opcionSelect && opcionSelect === "Pasantes" ? <Pasantes/> : (null)}
+          {opcionSelect && opcionSelect === "Campañas" ? (console.log("Campañas")) : (null)}
+          {opcionSelect && opcionSelect === "Veterinarias" ? (console.log("Veterinarias")) : (null)}
+          {opcionSelect && opcionSelect === "Reportes" ? (console.log("Reportes")) : (null)}
+          {opcionSelect && opcionSelect === "Suscriptores" ? (console.log("Suscriptores")) : (null)}
+
+        </div>
       </div>
     </div>
   );

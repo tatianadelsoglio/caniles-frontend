@@ -47,6 +47,7 @@
     flex-direction: row;
     height: 7%;
     box-shadow: 2px 2px 5px #999;
+    width: 100%;
 }
 
 .ant-menu-item{
@@ -71,3 +72,8 @@
 .ant-menu-dark .ant-menu-item:hover{
     background-color: #696053;
 }
+
+
+/* .menu_usuario .ant-menu-item{
+    background-color: white !important;
+} */
